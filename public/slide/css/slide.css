@@ -1,0 +1,43 @@
+
+
+/* tạo các next prev lúc hover slide */
+.owl-next, 
+.owl-prev {
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+  
+}
+#slideresponsive{
+
+}
+
+
+
+.owl-carousel:hover .owl-prev {
+    left: 10px;
+    transition: all .3s ease-in-out;
+    opacity: 0.7;
+
+}
+.owl-carousel:hover .owl-next {
+    right: 10px;
+    transition: all .3s ease-in-out;
+    opacity: 0.7;
+
+}
+
+div.owl-prev:hover i,div.owl-next:hover i{
+  background-color: rgba(255, 255, 255, 0.8) !important;
+  color:#000 !important;
+  opacity: 1.0;
+}
+
+
+/*end tạo các next prev lúc hover slide */
+
+
+
+
+#slideresponsive .item{
+  width: 100%;
+}
